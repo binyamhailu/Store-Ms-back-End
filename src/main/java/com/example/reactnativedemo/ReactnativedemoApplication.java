@@ -1,5 +1,7 @@
 package com.example.reactnativedemo;
 
+import com.example.reactnativedemo.repository.ItemRepository;
+import com.example.reactnativedemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReactnativedemoApplication implements CommandLineRunner {
 
     @Autowired
-    private  UserRepository userRepository ;
+    private UserRepository userRepository ;
     @Autowired
     private ItemRepository itemRepository ;
     public static void main(String[] args) {

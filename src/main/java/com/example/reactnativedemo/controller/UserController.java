@@ -1,5 +1,7 @@
-package com.example.reactnativedemo;
+package com.example.reactnativedemo.controller;
 
+import com.example.reactnativedemo.repository.UserRepository;
+import com.example.reactnativedemo.model.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

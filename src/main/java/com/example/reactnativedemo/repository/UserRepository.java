@@ -1,5 +1,6 @@
-package com.example.reactnativedemo;
+package com.example.reactnativedemo.repository;
 
+import com.example.reactnativedemo.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

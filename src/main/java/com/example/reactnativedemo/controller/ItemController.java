@@ -1,5 +1,8 @@
-package com.example.reactnativedemo;
+package com.example.reactnativedemo.controller;
 
+import com.example.reactnativedemo.repository.ItemRepository;
+import com.example.reactnativedemo.model.ItemStatus;
+import com.example.reactnativedemo.model.Item;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

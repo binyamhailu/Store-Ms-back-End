@@ -1,4 +1,4 @@
-package com.example.reactnativedemo;
+package com.example.reactnativedemo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;

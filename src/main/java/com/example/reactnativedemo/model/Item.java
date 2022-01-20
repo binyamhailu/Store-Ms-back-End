@@ -1,10 +1,7 @@
-package com.example.reactnativedemo;
+package com.example.reactnativedemo.model;
 
 import lombok.*;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.domain.Auditable;
-import org.springframework.data.domain.AuditorAware;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
